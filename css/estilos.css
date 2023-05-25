@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 .logo{
@@ -16,8 +16,7 @@ margin-bottom: 20px;
 }
 .navbar{
     margin-top: -30px;
-    height: 150px;
-    
+    height: 150px; 
 }
 .navbar  a:hover{
     font-weight: bold;
@@ -50,8 +49,6 @@ h2.subtitulo{
 }
 
 .header{
-   
-    width: 100%;
     height: 150px;
 }
 h3{
@@ -92,10 +89,7 @@ li {
 .links{
     position: relative;
     left: 100px;
-    right: 50%;
     margin: 100px;
-    /* display: flex;
-    justify-content: space-around; */
 }
 .informacion{
   
@@ -115,7 +109,7 @@ left: 85px;
 }
 .button{
     position: relative;
-    top: -150px;
+    top: 138px;
     left: -10%;
     color: rgb(61, 56, 56);
     background-color: rgba(215, 212, 212, 0.471);
@@ -187,16 +181,16 @@ div{
     height: 30px;
     width: 30px;
     position: relative;
-    bottom: 200px;
-    left: 570px;
-    bottom: 210px;
+    bottom: 230px;
+    left: 540px;
+    
     
 }
 .navNosotros{
     margin-top: 40px;
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .navbar{
         display: flex;
         justify-content: space-around;
@@ -204,11 +198,20 @@ div{
     .carousel{
         display: none;
     }
+    button{
+        position: relative;
+        right: 255px;
+        left: 1%;
+        top: -41px;
+    }
     .novedades{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 58px;
+        margin-bottom: 58px;   
+        position: relative;
+        left: -28%;
+        margin-top: 49px;
     }
     .listaNovedades{
         display:list-item;
@@ -217,57 +220,63 @@ div{
         width: 284px;
         margin-top: 26px;
         padding: 0px;
-        left: -30px;
+        left: 124px;
     }
     h4{
         margin-top: 40px;
-        margin-bottom: 67px;
-        width: 414px;
-    left: -41px;
+    margin-bottom: 67px;
+    width: 90%;
+    left: 31%;
     }
     .sectionVideos {
         position: relative;
-        right: 367px;
-        width: 414px;
+        right: 350px;
+        width: 100%;
     }
     .links {
-        position: relative;
-        left: 190px;
-        right: 14px;
-        top: -8px;
-        margin: 2px;
         
+        top: -48px;
+        margin: 2px;
+        position: relative;
+        left: 66%;
+        right: 21px; 
 }
     .button{
         top: -155px;
-        left: 29%;
+        left: 75%;
     }
     h2.subtitulo{
        
-        width: 414px;
+        width: 90%;
         left: 374px;
     }
     .videosPresentacion {
-        height: 100%;
-        width: 414px;
+        height: 328px;
+        width: 85%;
         position: relative;
         bottom: 156px;
         left: 346px;
+        
     }   
     .header {
         width: 414px;
         height: 134px;
     }
     .containerfinal{
-        width: 414px;
+        width: 90%;
         height: 448px;
+        position: relative;
+        left: 5%;
     }
     .Logor {
-        height: 29px;
-        width: 30px;
-        position: relative;
-        left: 26px;
-        bottom: 299px;
+        height: 30px;
+    width: 30px;
+    position: relative;
+    left: 21%;
+    bottom: 282%;
+    }
+    .logo{
+        margin-right: 37%;
     }
     p {
         margin-top: 0;
@@ -288,12 +297,101 @@ div{
         position: sticky;
         right: 60px;
         position: sticky;
-    
-    left: 10px;
-   
+       left: 10px;
     margin: 10px;
     }
     .clickaqui{
         display: none;
     }
+    
+    .footerP{
+        height: 87PX;
+        width: 90%;
+        left: 2%;
+        display: contents;
+        position: relative;
+    }
 } 
+/* tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: -20%;
+        width: 89%;
+        
+    }
+    .containerCarrousel{
+        width: 85%;
+        margin-top: 30px;
+    }
+    div {
+        display: inline-block;
+    }
+    .links {
+        position: relative;
+        top: 24px;
+    margin: 0px;
+    left: 40%;
+    }
+    h2.subtitulo{
+        width: 90%;
+        left: 30px;
+    
+    }
+    .videosPresentacion {
+        height: 400px;
+        width: 80%;
+        position: relative;
+        
+        left: 30px;
+     }
+    .logo {
+        height: 50px;
+        width: 200px;
+        margin-left: 45px;
+        margin-top: 80px;
+    }
+    .carousel-inner {
+        position: relative;
+       
+        left: 60px;
+    }
+    h4{
+        position: relative;
+        width: 90%;
+        left: 30px;
+    }
+    .clickaqui{
+        display: none;
+    }
+    button{
+        position: relative;
+        right: 34%;
+    top: 34px;
+    }
+    .containerfinal {
+        position: relative;
+        left: 14px;
+    }
+    .footer{
+        position: relative;
+        left: 20px;
+    }
+    /* marcas y productos */
+}
+.containerGrid{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 151px 218px;
+}
+.fotosAcessorios{
+    display: grid;
+    margin: 49px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+}
+
