@@ -87,9 +87,12 @@ li {
 }
 
 .links{
-    position: relative;
+    /* position: relative;
     left: 100px;
-    margin: 100px;
+    margin: 100px; */
+        position: relative;
+        left: 24px;
+        margin: 64px;
 }
 .informacion{
   
@@ -204,6 +207,7 @@ div{
         left: 1%;
         top: -41px;
     }
+
     .novedades{
         display: flex;
         flex-direction: column;
@@ -235,11 +239,12 @@ div{
     }
     .links {
         
-        top: -48px;
-        margin: 2px;
-        position: relative;
-        left: 66%;
-        right: 21px; 
+            bottom: 111px;
+            margin: 2px;
+            position: relative;
+            left: 99%;
+            right: 21px;
+        
 }
     .button{
         top: -155px;
@@ -331,9 +336,9 @@ div{
     }
     .links {
         position: relative;
-        top: 24px;
-    margin: 0px;
-    left: 40%;
+        top: -14px;
+        margin: 0px;
+        left: 52%;
     }
     h2.subtitulo{
         width: 90%;
@@ -371,6 +376,11 @@ div{
         right: 34%;
     top: 34px;
     }
+    .button-marcas {
+        position: relative;
+        right: 50%;
+        top: -4%;
+    }
     .containerfinal {
         position: relative;
         left: 14px;
@@ -381,17 +391,46 @@ div{
     }
     /* marcas y productos */
 }
-.containerGrid{
-    display: grid;
-    margin-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 151px 218px;
-}
-.fotosAcessorios{
+
+.containerProductos{
     display: grid;
     margin: 49px;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-
 }
 
+/* .imgProductos{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+} */
+.imgProductos{
+    width: 275px;
+    height: 217px;
+    margin: 20px;
+}
+.marcas h2{
+    position: relative;
+    top: -12px;
+}
+/* .containerMarcas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+} */
+
+.imgMarcas{
+    width: 144px;
+    height: 44px;
+    margin: 17px;
+}
+.productos{
+    left: 10px;
+    position: relative;
+}
+/* .button-marcas{
+    position: relative;
+    left: 70%;
+    top: -120px;
+
+} */
