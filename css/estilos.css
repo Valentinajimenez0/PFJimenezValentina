@@ -8,7 +8,7 @@
     width: 200px;
     margin-left: 10px;
     margin-top: 5px;
-    
+
 }
 .wpp{
 height: 50px;
@@ -16,7 +16,7 @@ margin-bottom: 20px;
 }
 .navbar{
     margin-top: -30px;
-    height: 150px; 
+    height: 150px;
 }
 .navbar  a:hover{
     font-weight: bold;
@@ -26,11 +26,15 @@ margin-bottom: 20px;
 .imgenesCarrousel{
     height: 100px;
 }
-.w-100{
+/* .w-100{
     height: 600px;
-}
+} */
 .carousel{
-    height: 100px;
+        height: 100px;
+        width: 100%;
+        display: inline-flex;
+        height: 691px;
+    
 }
 
 h2{
@@ -83,7 +87,7 @@ h4{
 }
 li {
     display: inline;
-    
+
 }
 
 .links{
@@ -95,7 +99,7 @@ li {
         margin: 64px;
 }
 .informacion{
-  
+
     height: 100%;
     margin-top: 50px;
 }
@@ -147,7 +151,7 @@ div{
 }
 .sectionVideos{
   width: 100%;
-  
+
 }
 .contenedorVideos{
     width: 100%;
@@ -164,7 +168,7 @@ div{
     top:  200px;
     margin-top: 20px;
     font-size: 15px;
-    
+
 }
 .Direcciones{
     position: relative;
@@ -186,12 +190,16 @@ div{
     position: relative;
     bottom: 230px;
     left: 540px;
-    
-    
+
+
 }
 .navNosotros{
     margin-top: 40px;
-    
+
+}
+.w {
+    width: 100%;
+    height: 691px;
 }
 @media screen and (max-width: 767px) {
     .navbar{
@@ -203,16 +211,15 @@ div{
     }
     button{
         position: relative;
-        right: 255px;
-        left: 1%;
-        top: -41px;
+        left: 42%;
+        bottom: 47px;
     }
 
     .novedades{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 58px;   
+        margin-bottom: 58px;
         position: relative;
         left: -28%;
         margin-top: 49px;
@@ -238,20 +245,19 @@ div{
         width: 100%;
     }
     .links {
-        
-            bottom: 111px;
+
+            bottom: 80px;
             margin: 2px;
             position: relative;
-            left: 99%;
+            left: 75%;
             right: 21px;
-        
-}
+    }
     .button{
         top: -155px;
         left: 75%;
     }
     h2.subtitulo{
-       
+
         width: 90%;
         left: 374px;
     }
@@ -261,8 +267,8 @@ div{
         position: relative;
         bottom: 156px;
         left: 346px;
-        
-    }   
+
+    }
     .header {
         width: 414px;
         height: 134px;
@@ -290,7 +296,7 @@ div{
         bottom: -4px;
         width: 82%;
     }
-    
+
     .Direcciones p {
         position: relative;
         bottom: 91px;
@@ -308,7 +314,7 @@ div{
     .clickaqui{
         display: none;
     }
-    
+
     .footerP{
         height: 87PX;
         width: 90%;
@@ -316,7 +322,15 @@ div{
         display: contents;
         position: relative;
     }
-} 
+    .button-marcas{
+    position: relative;
+    right: 23%;
+    bottom: 100px;
+    }
+    h1{
+        margin-top: 50px;
+    }
+}
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px){
     .navbar{
@@ -325,7 +339,7 @@ div{
         position: relative;
         bottom: -20%;
         width: 89%;
-        
+
     }
     .containerCarrousel{
         width: 85%;
@@ -336,20 +350,20 @@ div{
     }
     .links {
         position: relative;
-        top: -14px;
+        top: 14px;
         margin: 0px;
-        left: 52%;
+        left: 56%;
     }
     h2.subtitulo{
         width: 90%;
         left: 30px;
-    
+
     }
     .videosPresentacion {
         height: 400px;
         width: 80%;
         position: relative;
-        
+
         left: 30px;
      }
     .logo {
@@ -360,7 +374,7 @@ div{
     }
     .carousel-inner {
         position: relative;
-       
+
         left: 60px;
     }
     h4{
@@ -373,8 +387,8 @@ div{
     }
     button{
         position: relative;
-        right: 34%;
-    top: 34px;
+        right: 43%;
+        top: 34px;
     }
     .button-marcas {
         position: relative;
@@ -434,3 +448,6 @@ div{
     top: -120px;
 
 } */
+.todo{
+    overflow-x: hidden;
+}
