@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 .logo {
   height: 44px;
   width: 189px;
@@ -30,7 +31,7 @@
 }
 
 .d-block {
-  display: block;
+  display: block !important;
   width: 100%;
   height: 650px;
 }
@@ -62,4 +63,24 @@
   left: 85px;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.button {
+  position: relative;
+  top: 138px;
+  left: -10%;
+  color: rgb(61, 56, 56);
+  background-color: rgba(215, 212, 212, 0.471);
+  margin-bottom: 50px;
+  padding: 3px;
+}
+
+div {
+  display: inline;
+}
+
+article.novedades {
+  display: inline-flex;
+  /* align-items: end; */
+  /* justify-items: unset; */
+}
+
+/*# sourceMappingURL=estilo.css.map */
