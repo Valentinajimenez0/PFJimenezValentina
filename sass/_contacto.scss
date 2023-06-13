@@ -1,0 +1,77 @@
+.contenedorForm{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    left: 30px;
+    background: #fafafa;
+    margin-left: 10%;
+    padding: 20px;
+}
+.contenedorUbicaciones{
+    margin-left: 20px;
+    .ubicaciones{
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0px;
+        }
+    .mapa{
+            width: 20%;
+            margin: 20px;
+            height: 300px;
+    }
+}
+text{
+    position: relative;
+    left: 15%;
+}
+textarea{
+    .form-control {
+        min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
+        position: relative;
+        left: 15%;
+        width: 50%;
+    }
+}
+.contenedorEquipo{
+    margin: 40px;
+    background: #d5d5d5;
+    h2{
+        margin: 30px;
+    }
+    .equiposxProvincias{
+        display: inline-grid;
+        margin: 46px;
+        justify-items: self-end;
+        justify-items: flex-end;
+        li{
+            list-style: none;
+            width: 70%;
+            margin-left: 115px;
+            display: grid;
+            justify-items: baseline;
+        }
+    }
+}
+.footer{
+    margin: 40px;
+}
+@media screen and (max-width: 768px){
+    .contenedorEquipo{
+        width: 100%;
+        margin: 45px 0px;
+        .equiposxProvincias{
+            margin: 0px;
+        }
+    }
+    .contenedorUbicaciones{
+        margin: 0px;
+        .mapa{
+            width: 100%;
+            margin: 10px 0px;
+        }
+    }
+    .footerP{
+        display: inline;
+    }
+      
+}

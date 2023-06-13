@@ -1,0 +1,39 @@
+
+.todo {
+    overflow-x: hidden;
+    .tituloPagos{
+        background-image: radial-gradient(circle at top left,rgb(255 16 16 / 43%) 4%,rgb(213 25 25 / 16%) 100%), url(https://media.licdn.com/dms/image/D4E12AQHtKdju-zIsfQ/article-cover_image-shrink_720_1280/0/1676404831411?e=2147483647&v=beta&t=J53uA2b-KcXxMbMhzj8DKYe-pHyQL2FS2NA6Ae2xp-Y);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 550px;
+        color: rgb(25 21 69);
+    }
+    .contenedorCuentas{
+        display: flex;
+        margin: 7%;
+        background: #fafafa;
+        justify-content: center;
+        .cuentaA{
+            display: grid;
+            justify-content: center;
+        }
+    }
+    .hrsAtencion {
+        display: flex;
+        justify-content: center;
+        background-color: #fafafa;
+        h3{
+            justify-content: center;
+        }
+        .hrs{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+        .contenedorCuentas {
+            display: block;
+        }
+}

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 .logo {
   height: 44px;
   width: 189px;
@@ -17,49 +18,354 @@
   margin-left: 30%;
 }
 
-.wpp {
-  height: 50px;
-}
-
 .sticky {
   position: sticky;
-  height: 50px;
+  height: 60px;
   width: 10px;
   left: 90%;
   bottom: 0%;
+}
+.sticky .wpp {
+  height: 50px;
 }
 
 .d-block {
   display: block;
   width: 100%;
-  height: 650px;
-}
-
-.listaNovedades {
-  color: rgb(61, 56, 56);
-  position: relative;
-  height: 350px;
-  width: 370px;
-  bottom: 70px;
-  margin: 100px 10px;
-  padding: 0px;
-  left: 85px;
+  height: 550px;
 }
 
 .informacion {
   height: 100%;
   margin-top: 50px;
 }
-
-.listaNovedades {
+.informacion article.novedades {
+  margin-top: 69px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.informacion article.novedades .listaNovedades {
+  height: 336px;
+  width: 403px;
+  margin: 23px 10px;
+}
+.informacion article.novedades .verMas {
   color: rgb(61, 56, 56);
+  padding: 3px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: inline;
+}
+
+h4 {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.sectionVideos {
+  margin-top: 30px;
+}
+.sectionVideos .contenedorVideos {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.sectionVideos .contenedorVideos .parrafoVideos {
+  margin-left: 26px;
+  margin-bottom: 1rem;
+  width: 42%;
+  height: 40%;
+}
+
+.Logor {
+  height: 30px;
+  width: 30px;
+}
+
+.containerDirecciones {
+  display: flex;
+  justify-content: center;
+}
+.containerDirecciones .mapa {
+  height: 358px;
+  width: auto;
+}
+.containerDirecciones .Direcciones {
+  display: grid;
+  justify-items: center;
+  background-color: rgba(215, 212, 212, 0.471);
+}
+.containerDirecciones .Direcciones .clickaqui {
+  text-decoration: none;
+  color: red;
+}
+
+.footerP {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .informacion h4 {
+    font-weight: normal;
+  }
+  .informacion .verMas {
+    display: flex;
+    justify-content: center;
+  }
+  .carrusel {
+    display: none;
+  }
+  div {
+    display: flex;
+    justify-content: unset;
+  }
+  .containerfinal .containerDirecciones {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionVideos .contenedorVideos {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .sectionVideos .contenedorVideos .videosPresentacion {
+    width: 100%;
+    height: auto;
+  }
+  .sectionVideos .contenedorVideos .parrafoVideos {
+    width: 80%;
+  }
+}
+.productos {
+  width: 288px;
+  height: auto;
+  margin: 36px;
+}
+.productos .imgProductos {
+  width: 244px;
+  height: auto;
+  transition: transform 1s;
+}
+.productos .imgProductos:hover {
+  transform: scale(1.5);
+}
+
+.marcas {
+  margin: 41px;
+  justify-content: center;
+}
+.marcas .cadaMarca {
+  width: 288px;
+}
+.marcas .cadaMarca .imgMarcas {
+  width: 160px;
+  height: auto;
+}
+
+.todo {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  div {
+    justify-content: unset;
+    display: inline;
+  }
+  .cadaMarca {
+    margin: 20px;
+  }
+}
+.contenedorForm {
+  display: inline-block;
+  width: 70%;
   position: relative;
-  height: 350px;
-  width: 370px;
-  bottom: 70px;
-  margin: 100px 10px;
-  padding: 0px;
-  left: 85px;
+  left: 30px;
+  background: #fafafa;
+  margin-left: 10%;
+  padding: 20px;
+}
+
+.contenedorUbicaciones {
+  margin-left: 20px;
+}
+.contenedorUbicaciones .ubicaciones {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0px;
+}
+.contenedorUbicaciones .mapa {
+  width: 20%;
+  margin: 20px;
+  height: 300px;
+}
+
+text {
+  position: relative;
+  left: 15%;
+}
+
+textarea .form-control {
+  min-height: calc(1.5em + 0.75rem + var(--bs-border-width) * 2);
+  position: relative;
+  left: 15%;
+  width: 50%;
+}
+
+.contenedorEquipo {
+  margin: 40px;
+  background: #d5d5d5;
+}
+.contenedorEquipo h2 {
+  margin: 30px;
+}
+.contenedorEquipo .equiposxProvincias {
+  display: inline-grid;
+  margin: 46px;
+  justify-items: self-end;
+  justify-items: flex-end;
+}
+.contenedorEquipo .equiposxProvincias li {
+  list-style: none;
+  width: 70%;
+  margin-left: 115px;
+  display: grid;
+  justify-items: baseline;
+}
+
+.footer {
+  margin: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorEquipo {
+    width: 100%;
+    margin: 45px 0px;
+  }
+  .contenedorEquipo .equiposxProvincias {
+    margin: 0px;
+  }
+  .contenedorUbicaciones {
+    margin: 0px;
+  }
+  .contenedorUbicaciones .mapa {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .footerP {
+    display: inline;
+  }
+}
+.todoNos {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.todoNos .historia {
+  width: 300px;
+  margin: 40px;
+}
+.todoNos .imgHistoria {
+  width: 100%;
+  margin: 40px;
+}
+.todoNos .containerNosotros {
+  justify-content: center;
+  text-align-last: center;
+  margin: 40px;
+}
+.todoNos .containerNosotros .text-center {
+  margin: 28px;
+}
+.todoNos .containerNosotros .mision {
+  width: 400px;
+  margin: 20px;
+  text-align: -webkit-center;
+}
+.todoNos .containerNosotros .valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.todoNos li {
+  list-style: none;
+}
+.todoNos .contenedorListas {
+  height: 503px;
+  margin-top: 46px;
+  background-image: url(https://img.freepik.com/vector-premium/patron-quimica-lineas-puntos-conexion-estructura-moleculas-gris-investigacion-cientifica-adn-medico_45568-1427.jpg?w=2000);
+}
+.todoNos .contenedorListas .lista {
+  border: solid 1px black;
+  width: 225px;
+  height: 232px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+  background-color: rgba(98, 39, 39, 0.482);
+  color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+  .imgHistoria {
+    margin: 0px;
+  }
+  .contenedorListas {
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contenedorListas {
+    height: auto;
+  }
+}
+.todo {
+  overflow-x: hidden;
+}
+.todo .tituloPagos {
+  background-image: radial-gradient(circle at top left, rgba(255, 16, 16, 0.43) 4%, rgba(213, 25, 25, 0.16) 100%), url(https://media.licdn.com/dms/image/D4E12AQHtKdju-zIsfQ/article-cover_image-shrink_720_1280/0/1676404831411?e=2147483647&v=beta&t=J53uA2b-KcXxMbMhzj8DKYe-pHyQL2FS2NA6Ae2xp-Y);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+  color: rgb(25, 21, 69);
+}
+.todo .contenedorCuentas {
+  display: flex;
+  margin: 7%;
+  background: #fafafa;
+  justify-content: center;
+}
+.todo .contenedorCuentas .cuentaA {
+  display: grid;
+  justify-content: center;
+}
+.todo .hrsAtencion {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+.todo .hrsAtencion h3 {
+  justify-content: center;
+}
+.todo .hrsAtencion .hrs {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorCuentas {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

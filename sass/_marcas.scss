@@ -1,0 +1,38 @@
+
+.productos{
+    width: 288px;
+    height: auto;
+    margin: 36px;
+    .imgProductos{
+        width: 244px;
+        height: auto;
+        transition: transform 1s;
+        &:hover{
+            transform: scale(1.5);
+        }
+    }   
+}
+.marcas{
+    margin: 41px;
+    justify-content: center;
+    .cadaMarca{
+        width: 288px;
+        .imgMarcas{
+            width: 160px;
+            height: auto;
+        } 
+    }
+}
+
+.todo{
+    overflow-x: hidden;
+}
+@media screen and (max-width: 768px){
+ div{
+    justify-content: unset;
+    display: inline;
+}
+.cadaMarca{
+    margin: 20px;
+}
+}

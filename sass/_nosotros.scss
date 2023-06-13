@@ -1,0 +1,73 @@
+
+.todoNos{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    .historia{
+        width: 300px;
+        margin: 40px;
+    }
+    .imgHistoria{
+        width: 100%;
+        margin: 40px;
+    }
+    
+    .containerNosotros{
+        justify-content: center;
+        text-align-last: center;
+        margin: 40px;
+        .text-center {
+            margin: 28px;
+        }
+        .mision{
+            width: 400px;
+            margin: 20px;
+            text-align: -webkit-center;
+        }
+        .valores{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+    }
+    li{
+        list-style: none;
+    }
+    
+    .contenedorListas{
+        height: 503px;
+        margin-top: 46px;
+        background-image: url(https://img.freepik.com/vector-premium/patron-quimica-lineas-puntos-conexion-estructura-moleculas-gris-investigacion-cientifica-adn-medico_45568-1427.jpg?w=2000);
+        .lista {
+            border: solid 1px black;
+            width: 225px;
+            height: 232px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px;
+            background-color: rgba(98, 39, 39, 0.482);
+            color: aliceblue;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .imgHistoria{
+        margin: 0px;
+    }
+    .contenedorListas{
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px){
+    .contenedorListas{
+        height: auto;
+    }
+}
+
+
+
+
+
+
