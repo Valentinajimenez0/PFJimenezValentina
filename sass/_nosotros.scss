@@ -35,7 +35,7 @@
     }
     
     .contenedorListas{
-        height: 503px;
+        height: auto;
         margin-top: 46px;
         background-image: url(https://img.freepik.com/vector-premium/patron-quimica-lineas-puntos-conexion-estructura-moleculas-gris-investigacion-cientifica-adn-medico_45568-1427.jpg?w=2000);
         .lista {
@@ -53,8 +53,10 @@
     }
 }
 @media screen and (max-width: 768px){
-    .imgHistoria{
-        margin: 0px;
+    .todoNos{
+        .imgHistoria{
+            margin-left: 0px;
+        }
     }
     .contenedorListas{
         height: auto;
@@ -64,6 +66,10 @@
     .contenedorListas{
         height: auto;
     }
+     .imgHistoria {
+            margin: 0px;
+        }
+    
 }
 
 

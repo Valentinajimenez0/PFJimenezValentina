@@ -35,5 +35,7 @@
 @media screen and (max-width: 768px) {
         .contenedorCuentas {
             display: block;
+            flex-wrap: wrap;
         }
+
 }
